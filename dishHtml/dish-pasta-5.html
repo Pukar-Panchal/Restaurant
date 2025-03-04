@@ -3,10 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="dishCss/dish-pasta-5.css">
-    <title>pasta</title>
+    <link rel="stylesheet" href="../menu.css">
+    <title>Pasta</title>
 </head>
 <body>
-    
+    <nav>
+        <div class="nav-bar-dish1">
+            <input class="nav-searchbar" type="text" placeholder="Search items">
+        </div>
+        <div class="slideshow-container-dish1">
+            <div class="myslide"></div>
+        </div>
+    </nav>
+
+    <!-- Script for dish-1 -->
+    <script>
+        let currentSlide = 0;
+
+const slides = [
+    'url("https://images7.alphacoders.com/129/thumb-1920-1290221.jpg")',
+    'url("https://images5.alphacoders.com/130/thumb-1920-1303187.jpg")',
+    'url("https://images5.alphacoders.com/381/thumb-1920-381504.jpg")',
+    'url("https://images.alphacoders.com/130/thumb-1920-1308389.jpeg")'
+];
+const slidesElement = document.querySelector(".myslide");
+ function showSlide(){
+    slidesElement.style.backgroundImage = slides[currentSlide];
+    currentSlide = (currentSlide+1)%slides.length;
+    setTimeout(showSlide,2000);
+ }
+ showSlide();
+    </script>
 </body>
 </html>
