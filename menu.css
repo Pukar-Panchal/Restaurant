@@ -1,4 +1,24 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Ponomar&family=Sigmar&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Sigmar&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dancing+Script:wght@400..700&family=Pacifico&family=Permanent+Marker&family=Sigmar&display=swap');
+* h1,h2{
+    font-family: "Sigmar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h3{
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+* p{
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+*{ 
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -376,7 +396,6 @@ ul h4{
     }       
 }
 
-
 /* dish-1-pizza */
 
 .nav-bar-dish1{
@@ -418,20 +437,22 @@ ul h4{
     gap: 15px;
     height: auto;
     width: auto;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 .dish-box-category1{
     margin-top: 1rem;
     filter: drop-shadow(20px 20px 20px rgba(10, 10, 10, 0.5));
 }
 .order-aboutbox-category1{
-    height: 4rem;
+    height: 5.5rem;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    text-align: center;
     background: #F8F7F5;
 }
 .imagebox-category1{
-    height: 80%;
+    height: 70%;
+    width: 100%;
 }
 .image-1-category1{
     background: url("./image/Main-dish-category-1/dish-1-category-1.jpg") center;
@@ -460,7 +481,7 @@ ul h4{
     width: 95%;
     background: #F8F7F5;
     margin-left: 2.5rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     font-size: 25px;
     border-radius: 10px;
 }
@@ -468,8 +489,8 @@ ul h4{
     display: flex;
     justify-content: center;
     display: grid;
-    grid-template-columns: repeat(3,20rem);
-    grid-template-rows: repeat(2,20rem);
+    grid-template-columns: repeat(3,22rem);
+    grid-template-rows: repeat(2,21rem);
     gap: 15px;
     height: auto;
     width: auto;
@@ -480,13 +501,15 @@ ul h4{
     filter: drop-shadow(20px 20px 20px rgba(10, 10, 10, 0.5));
 }
 .order-aboutbox-category2{
-    height: 4rem;
+    height: 6.9rem;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    text-align: center;
     background: #F8F7F5;
 }
 .imagebox-category2{
-    height: 80%;
+    height: 65%;
+    width: 100%;
 }
 .image-1-category2{
     background: url("./image/Main-dish-category-1/Main-dish-category-2/dish-1-category-2.jpg") center;
@@ -523,7 +546,7 @@ ul h4{
     width: 95%;
     background: #F8F7F5;
     margin-left: 2.5rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     font-size: 25px;
     border-radius: 10px;
 }
@@ -531,8 +554,8 @@ ul h4{
     display: flex;
     justify-content: center;
     display: grid;
-    grid-template-columns: repeat(3,20rem);
-    grid-template-rows: repeat(2,20rem);
+    grid-template-columns: repeat(3,22rem);
+    grid-template-rows: repeat(2,21rem);
     gap: 15px;
     height: auto;
     width: auto;
@@ -543,13 +566,20 @@ ul h4{
     filter: drop-shadow(20px 20px 20px rgba(10, 10, 10, 0.5));
 }
 .order-aboutbox-category3{
-    height: 4rem;
+    height: 6.9rem;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    text-align: center;
     background: #F8F7F5;
 }
+.about-order-topping p {          
+    text-align: center;       
+}
+
+
 .imagebox-category3{
-    height: 80%;
+    height: 65%;
+    width: 100%;
 }
 .image-1-category3{
     background: url("./image/Main-dish-category-1/Main-dish-category-3/dish-1-category-3.jpg") center;
@@ -570,4 +600,227 @@ ul h4{
 .image-5-category3{
     background: url("./image/Main-dish-category-1/Main-dish-category-3/dish-5-category-3.webp") center;
     background-size: cover;
+}
+
+/* dish-1 category-4 */
+
+.category-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 95%;
+    background: #F8F7F5;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.main-dish-container-category4{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,23rem);
+    grid-template-rows: repeat(1,21rem);
+    gap: 15px;
+    height: 20rem;
+    width: auto;
+    margin-top: 2rem;
+}
+.dish-box-category4{
+    margin-top: 1rem;
+    filter: drop-shadow(20px 20px 20px rgba(10, 10, 10, 0.5));
+}
+.order-aboutbox-category4{
+    height: 6.9rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #F8F7F5;
+}
+.imagebox-category4{
+    height: 65%;
+    width: 100%;
+}
+.image-1-category4{
+    background: url("./image/Main-dish-category-1/Main-dish-category-4/dish-1-category-4.webp") center;
+    background-size: cover;
+}
+.image-2-category4{
+    background: url("./image/Main-dish-category-1/Main-dish-category-4/dish-2-category-4.jpg") center;
+    background-size: cover;
+}
+.image-3-category4{
+    background: url("./image/Main-dish-category-1/Main-dish-category-4/dish-3-category-4.jpg") center;
+    background-size: cover;
+}
+
+/* dish-1 category-5 */
+
+.category-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 95%;
+    background: #F8F7F5;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.main-dish-container5{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2,23rem);
+    grid-template-rows: repeat(1,22rem);
+    gap: 15px;
+    height: auto;
+    width: auto;
+    margin-top: 1rem;
+}
+.dish-box-category5{
+    margin-top: 1rem;
+    filter: drop-shadow(20px 20px 20px rgba(10, 10, 10, 0.5));
+}
+.order-aboutbox-category5{
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #F8F7F5;
+}
+.imagebox-category5{
+    height: 65%;
+    width: 100%;
+}
+.image-1-category5{
+    background: url("./image/Main-dish-category-1/Main-dish-category-5/dish-1-category-5.webp") center;
+    background-size: cover;
+}
+.image-2-category5{
+    background: url("./image/Main-dish-category-1/Main-dish-category-5/dish-2-category-5.jpg") center;
+    background-size: cover;
+}
+
+/* pizza mania dish-1 */
+
+.pizza-maina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 95%;
+    background: #F8F7F5;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+    font-size: 25px;
+    border-radius: 10px;
+
+}
+.pizza-mania-container{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,20rem);
+    grid-template-rows: repeat(2,20rem);
+    gap: 15px;
+    height: auto;
+    width: auto;
+    margin-top: 1rem;
+}
+.pizza-mania-box{
+    margin-top: 1rem;
+    filter: drop-shadow(20px 20px 20px rgba(10, 10, 10, 0.5));
+}
+.imagebox-pizza-mania{
+    height: 70%;
+    width: 100%;
+    margin-top: 1rem;
+}
+.about-pizza-mania{
+    height: 5.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #F8F7F5;
+}
+.image-1-pizza-mania{
+    background: url("./image/Main-dish-category-1/Pizza-maina/dish-1-pizza-mania.jpg") center;
+    background-size: cover;
+}
+.image-2-pizza-mania{
+    background: url("./image/Main-dish-category-1/Pizza-maina/dish-2-pizza-mania.webp") center;
+    background-size: cover;
+}
+.image-3-pizza-mania{
+    background: url("./image/Main-dish-category-1/Pizza-maina/dish-3-pizza-mania.jpeg") center;
+    background-size: cover;
+}
+.image-4-pizza-mania{
+    background: url("./image/Main-dish-category-1/Pizza-maina/dish-4-pizza-mania.jpeg") center;
+    background-size: cover;
+}
+.image-5-pizza-mania{
+    background: url("./image/Main-dish-category-1/Pizza-maina/dish-5-pizza-mania.png") center;
+    background-size: cover;
+}
+.image-6-pizza-mania{
+    background: url("./image/Main-dish-category-1/Pizza-maina/dish-6-pizza-mania.jpeg") center;
+    background-size: cover;
+}
+
+/* pizza-mania-double-topping */
+
+.pizza-mania-container-double-topping{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,20rem);
+    grid-template-rows: repeat(2,20rem);
+    gap: 15px;
+    height: auto;
+    width: auto;
+    margin-top: 1rem;
+}
+.pizza-mania-rate{
+    margin-top: .5rem;
+}
+.image-1-pizza-mania-double-topping{
+    background: url("https://cdn.marico.in/uploads/soya-pizza-1-3460.jpg") center;
+    background-size: cover;
+}
+.image-2-pizza-mania-double-topping{
+    background: url("https://cdn.dotpe.in/longtail/item_thumbnails/6823969/DpB53crz-400-400.webp") center;
+    background-size: cover;
+}
+.image-3-pizza-mania-double-topping{
+    background: url("https://shoopy.b-cdn.net/273385/1670030098497_SKU-0425_0.png?format=webp") center;
+    background-size: cover;
+}
+.image-4-pizza-mania-double-topping{
+    background: url("https://hillpizza.in/baikunthpur/wp-content/uploads/sites/2/2022/11/schezwan-corn-capsicum-pan-.jpg") center;
+    background-size: cover;
+}
+.image-5-pizza-mania-double-topping{
+    background: url("https://mljqj1thoqw7.i.optimole.com/cb:HcZD.141db/w:750/h:422/q:mauto/id:dc8b7361507f5406f0759abfe122e1dc/https://cleancookingcaitlin.com/pineapple-pepper-vegan-pizza-wide.jpg") center;
+    background-size: cover;
+}
+.image-6-pizza-mania-double-topping{
+    background: url("https://teasteamcafe.com/wp-content/uploads/2024/01/unnamed-1.jpg") center;
+    background-size: cover;
+}
+.copyright-container-dish-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    height: 20rem;
+    width: 100%;
+    background: #181e26;
+    border: 1px solid #1a2029;
+    color: white;
+    margin-bottom: 5px;
+    flex-direction: column;
 }
