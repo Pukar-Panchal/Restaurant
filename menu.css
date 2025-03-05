@@ -407,10 +407,9 @@ ul h4{
     align-items: center;
     justify-content: center;
 }
-.slideshow-container-dish1{
+.slideshow-container-dish-1{
     height: 25rem;
     width: 98%;
-    margin-left: 1rem;
     border-radius: 10px;
     background-color: white;
     margin-top: 15px;
@@ -717,7 +716,6 @@ ul h4{
     margin-top: 2rem;
     font-size: 25px;
     border-radius: 10px;
-
 }
 .pizza-mania-container{
     display: flex;
@@ -824,3 +822,98 @@ ul h4{
     margin-bottom: 5px;
     flex-direction: column;
 }
+
+/* dish-2-burger */
+
+.nav-bar-dish-2{
+    height: 4rem;
+    width: 100%;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slideshow-container-dish-2{
+    height: 25rem;
+    width: 98%;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 15px;
+    filter: drop-shadow(20px 20px 20px rgba(10, 10, 10, 0.5));
+}
+.main-dish_h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 95%;
+    background: #F8F7F5;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.main-dish_container{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,22rem);
+    grid-template-rows: repeat(3,21rem);
+    gap: 15px;
+    height: auto;
+    width: auto;
+    margin-top: 2rem;
+}
+.main-dish_mainbox{
+    margin-top: 1rem;
+    filter: drop-shadow(20px 20px 20px rgba(10, 10, 10, 0.5));
+}
+.main-dish_imgbox{
+    height: 65%;
+    width: 100%;
+}
+.main-dish_about{
+    height: 6.9rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #F8F7F5;
+}
+.main-dish_topping p{          
+    text-align: center;       
+}
+.main-dish_image-1{
+    background: url("https://mcdonaldsblog.in/wp-content/uploads/2018/04/McAloo-tikki.jpg") center;
+    background-size: cover;
+}
+.main-dish_image-2{
+    background: url("https://images.unsplash.com/photo-1571091718767-18b5b1457add?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dmVnZ2llJTIwYnVyZ2VyfGVufDB8fDB8fHww") center;
+    background-size: cover;
+}
+.main-dish_image-3{
+    background: url("https://cdn.pixabay.com/photo/2024/07/03/13/23/burger-8869971_960_720.jpg") center;
+    background-size: cover;
+}
+.main-dish_image-4{
+    background: url("https://cdn.pixabay.com/photo/2023/01/21/17/49/burger-7734821_960_720.jpg") center;
+    background-size: cover;
+}
+.main-dish_image-5{
+    background: url("https://cdn.pixabay.com/photo/2017/02/06/19/38/hamburger-2044036_960_720.jpg") center;
+    background-size: cover;
+}
+.main-dish_image-6{
+    background: url("https://cdn.pixabay.com/photo/2022/07/15/18/17/spicy-burger-7323694_960_720.jpg") center;
+    background-size: cover;
+}
+.main-dish_image-7{
+    background: url("https://i.ytimg.com/vi/kUdIhifyJYg/maxresdefault.jpg") center;
+    background-size: cover;
+}
+.main-dish_image-8{
+    background: url("https://mcdonaldsblog.in/wp-content/uploads/2016/11/maharaja-mac-story_McDonalds_081116.jpg") center;
+    background-size: cover;
+}
+
