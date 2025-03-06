@@ -31,7 +31,7 @@ body{
     margin: 0;
 }
 /* Navigationbar */
-.nav-bar{
+.nav-bar-index{
     height: 4rem;
     width: 100%;
     background: linear-gradient(45deg, #6a11cb, #2575fc);
@@ -255,6 +255,7 @@ ul h4{
     margin-top: 3rem;
     height: 50px;
     width: 150px;
+    cursor: pointer;
 }
 .footer-logo-insta,.footer-logo-phone,.footer-logo-facebook{
     font-size: 24px;
@@ -398,7 +399,7 @@ ul h4{
 
 /* dish-1-pizza */
 
-.nav-bar-dish1{
+.nav-bar-dish_1{
     height: 4rem;
     width: 100%;
     background: linear-gradient(45deg, #6a11cb, #2575fc);
@@ -855,7 +856,7 @@ ul h4{
     font-size: 25px;
     border-radius: 10px;
 }
-.main-dish_container{
+.main-dish-burger_container{
     display: flex;
     justify-content: center;
     display: grid;
@@ -916,4 +917,152 @@ ul h4{
     background: url("https://mcdonaldsblog.in/wp-content/uploads/2016/11/maharaja-mac-story_McDonalds_081116.jpg") center;
     background-size: cover;
 }
+.copyright-container-dish-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    height: 20rem;
+    width: 100%;
+    background: #181e26;
+    border: 1px solid #1a2029;
+    color: white;
+    margin-bottom: 5px;
+    flex-direction: column;
+}
 
+/* main-dish-3-combo */
+
+.nav-bar-dish_3{
+    height: 4rem;
+    width: 100%;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slideshow-container-dish_3{
+    height: 25rem;
+    width: 98%;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 15px;
+    filter: drop-shadow(20px 20px 20px rgba(10, 10, 10, 0.5));
+    margin-left: .9rem;
+}
+.main-dish-combo_container{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,23rem);
+    grid-template-rows: repeat(2,21rem);
+    gap: 15px;
+    height: auto;
+    width: auto;
+    margin-top: 2rem;
+}
+.main-dish-combo_mainbox{
+    margin-top: 1rem;
+    filter: drop-shadow(20px 20px 20px rgba(10, 10, 10, 0.5));
+}
+.main-dish-combo_imgbox{
+    height: 65%;
+    width: 100%;
+}
+.main-dish-combo_about{
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #F8F7F5;
+}
+.main-dish-combo_topping p{          
+    text-align: center;       
+}
+.main-dish-combo_image-1{
+    background: url("https://rppizzeria.com/web/image/product.template/90/image_1024?unique=91f3ac8") center;
+    background-size: cover;
+}
+.main-dish-combo_image-2{
+    background: url("https://5.imimg.com/data5/VE/GG/MY-53040683/combo-for-family-28just-499-2f-29.jpg") center;
+    background-size: cover;
+}
+.main-dish-combo_image-3{
+    background: url("https://cdn.pixabay.com/photo/2017/09/18/20/46/pizza-2763173_960_720.jpg") center;
+    background-size: cover;
+}
+.main-dish-combo_image-4{
+    background: url("https://cdn.pixabay.com/photo/2017/09/18/20/46/pizza-2763172_960_720.jpg") center;
+    background-size: cover;
+}
+.main-dish-combo_image-5{
+    background: url("https://thumbs.dreamstime.com/b/family-pizza-combo-20923330.jpg") center;
+    background-size: cover;
+}
+
+/* main-dish-4-garlic bread */
+
+.nav-bar-dish_4{
+    height: 4rem;
+    width: 100%;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slideshow-container-dish_4{
+    height: 25rem;
+    width: 98%;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 15px;
+    filter: drop-shadow(20px 20px 20px rgba(10, 10, 10, 0.5));
+    margin-left: .9rem;
+}
+.main-dish-garlicbread_container{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,23rem);
+    grid-template-rows: repeat(2,21rem);
+    gap: 15px;
+    height: auto;
+    width: auto;
+    margin-top: 2rem;
+}
+.main-dish-garlicbread_mainbox{
+    margin-top: 1rem;
+    filter: drop-shadow(20px 20px 20px rgba(10, 10, 10, 0.5));
+}
+.main-dish-garlicbread_imgbox{
+    height: 65%;
+    width: 100%;
+}
+.main-dish-garlicbread_about{
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #F8F7F5;
+}
+.main-dish-garlicbread_topping p{          
+    text-align: center;       
+}
+.main-dish-garlicbread_image-1{
+    background: url("https://www.allrecipes.com/thmb/ymrjQ3GFq_Fc7Fu2yfvIj108tcM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/21080-great-garlic-bread-DDMFS-4x3-e1c7b5c79fde4d629a9b7bce6c0702ed.jpg") center;
+    background-size: cover;
+}
+.main-dish-garlicbread_image-2{
+    background: url("https://static.toiimg.com/photo/54696258.cms") center;
+    background-size: cover;
+}
+.main-dish-garlicbread_image-3{
+    background: url("https://cdn.uengage.io/uploads/5/image-453579-1730099592.jpeg") center;
+    background-size: cover;
+}
+.main-dish-garlicbread_image-4{
+    background: url("https://myfoodstory.com/wp-content/uploads/2020/12/Dominos-Style-Garlic-Breadsticks-4.jpg") center;
+    background-size: cover;
+}
