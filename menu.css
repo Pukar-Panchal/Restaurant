@@ -40,7 +40,7 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-.nav-bar label{
+.checkbtn{
     font-size: 30px;
     color: white;
     float: right;
@@ -70,15 +70,13 @@ body{
     background: #F1F5F8;
 }
 /* Navigationbar <a> tags */
-.nav-bar ul {
-    margin-right: 2rem;
-}
-.nav-bar ul li{
+.nav-bar-index ul li{
     display: inline-block;
     line-height: 4rem;
     margin: 0 5px;
 }
-.nav-bar ul li a{
+
+.nav-bar-index ul li a{
     color: white;
     font-size: 17px;
     font-weight: bold;
@@ -1064,5 +1062,292 @@ ul h4{
 }
 .main-dish-garlicbread_image-4{
     background: url("https://myfoodstory.com/wp-content/uploads/2020/12/Dominos-Style-Garlic-Breadsticks-4.jpg") center;
+    background-size: cover;
+}
+
+/* main-dish-5-pasta */
+
+.nav-bar-dish_5{
+    height: 4rem;
+    width: 100%;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slideshow-container-dish_5{
+    height: 25rem;
+    width: 98%;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 15px;
+    filter: drop-shadow(20px 20px 20px rgba(10, 10, 10, 0.5));
+    margin-left: .9rem;
+}
+.main-dish-pasta_container{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,23rem);
+    grid-template-rows: repeat(2,21rem);
+    gap: 15px;
+    height: auto;
+    width: auto;
+    margin-top: 2rem;
+}
+.main-dish-pasta_mainbox{
+    margin-top: 1rem;
+    filter: drop-shadow(20px 20px 20px rgba(10, 10, 10, 0.5));
+}
+.main-dish-pasta_imgbox{
+    height: 65%;
+    width: 100%;
+}
+.main-dish-pasta_about{
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #F8F7F5;
+}
+.main-dish-pasta_topping p{          
+    text-align: center;       
+}
+.main-dish-pasta_image-1{
+    background: url("https://www.yummytummyaarthi.com/wp-content/uploads/2022/11/red-sauce-pasta-1.jpg") center;
+    background-size: cover;
+}
+.main-dish-pasta_image-2{
+    background: url("https://www.indianveggiedelight.com/wp-content/uploads/2022/12/white-sauce-pasta-featured-500x500.jpg") center;
+    background-size: cover;
+}
+.main-dish-pasta_image-3{
+    background: url("https://media.istockphoto.com/id/1189709277/photo/pasta-penne-with-roasted-tomato-sauce-mozzarella-cheese-grey-stone-background-top-view.webp?s=1024x1024&w=is&k=20&c=-cx2OEvdsCqs2TPK_EttPr7QZoTmeNww-Wa2njBeCR0=") center;
+    background-size: cover;
+}
+.main-dish-pasta_image-4{
+    background: url("https://itsrainingflour.com/wp-content/uploads/2023/05/pink-sauce-pasta-image-1.jpg") center;
+    background-size: cover;
+}
+.main-dish-pasta_image-5{
+    background: url("https://motionsandemotions.com/wp-content/uploads/2023/12/Untitled-design-_52_-_1_.webp") center;
+    background-size: cover;
+}
+.main-dish-pasta_image-6{
+    background: url("https://www.foodmax.in/blogs/wp-content/uploads/2021/10/makhni-sauce-pasta-.jpeg") center;
+    background-size: cover;
+}
+
+/* main-dish-6-side's */
+
+.nav-bar-dish_6{
+    height: 4rem;
+    width: 100%;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slideshow-container-dish_6{
+    height: 25rem;
+    width: 98%;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 15px;
+    filter: drop-shadow(20px 20px 20px rgba(10, 10, 10, 0.5));
+    margin-left: .9rem;
+}
+.main-dish-sides_container{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,23rem);
+    grid-template-rows: repeat(4,21rem);
+    gap: 15px;
+    height: auto;
+    width: auto;
+    margin-top: 2rem;
+}
+.main-dish-sides_mainbox{
+    margin-top: 1rem;
+    filter: drop-shadow(20px 20px 20px rgba(10, 10, 10, 0.5));
+}
+.main-dish-sides_imgbox{
+    height: 65%;
+    width: 100%;
+}
+.main-dish-sides_about{
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #F8F7F5;
+}
+.main-dish-sides_topping p{          
+    text-align: center;       
+}
+.main-dish-sides_image-1{
+    background: url("https://images.ctfassets.net/pujs1b1v0165/2VLRM4ZmIxJaBGb3FugxQ7/710d90744a113b64960256db4244ed6c/Venison_Pizza_Pockets.jpg") center;
+    background-size: cover;
+}
+.main-dish-sides_image-2{
+    background: url("https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Arti_Gupta/Crispy_Paneer_Bars_Crispy_Cottage_Cheese_Bars_400.jpg") center;
+    background-size: cover;
+}
+.main-dish-sides_image-3{
+    background: url("https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg") center;
+    background-size: cover;
+}
+.main-dish-sides_image-4{
+    background: url("https://recipesblob.oetker.in/assets/bc5c72c670f34382a027278be260dcce/750x910/pizza-puff.webp") center;
+    background-size: cover;
+}
+.main-dish-sides_image-5{
+    background: url("https://i.ytimg.com/vi/CoqHXof61Hw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBs9iA2SrctOSA5Hiqe7PB0d7Rsdg") center;
+    background-size: cover;
+}
+.main-dish-sides_image-6{
+    background: url("https://simshomekitchen.com/wp-content/uploads/2022/05/Ten-fried-Lebanese-falafels-served-with-tahini-sauce-on-a-white-plate.jpg") center;
+    background-size: cover;
+}
+.main-dish-sides_image-7{
+    background: url("https://5.imimg.com/data5/KQ/WW/BX/SELLER-53303099/frozen-chilli-garlic-potato-poppers.jpg") center;
+    background-size: cover;
+}
+.main-dish-sides_image-8{
+    background: url("https://i.ytimg.com/vi/E0s1G3JYtGE/maxresdefault.jpg") center;
+    background-size: cover;
+}
+.main-dish-sides_image-9{
+    background: url("https://m.media-amazon.com/images/S/aplus-media-library-service-media/e4be1446-2529-49af-8193-47a4e0b18649.__CR0,0,300,300_PT0_SX300_V1___.jpg") center;
+    background-size: cover;
+}
+.main-dish-sides_image-10{
+    background: url("https://media.istockphoto.com/id/1018455976/photo/variety-of-beer-snack.jpg?s=612x612&w=0&k=20&c=fFNIdc654HIJMGTbwBT33wD4RUmAus_FR-GJPdQqXNw=") center;
+    background-size: cover;
+}
+
+/* main-dish-drink's */
+
+
+.nav-bar-dish_7{
+    height: 4rem;
+    width: 100%;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slideshow-container-dish_7{
+    height: 25rem;
+    width: 98%;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 15px;
+    filter: drop-shadow(20px 20px 20px rgba(10, 10, 10, 0.5));
+    margin-left: .9rem;
+}
+.main-dish-shake_container{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,23rem);
+    grid-template-rows: repeat(3,21rem);
+    gap: 15px;
+    height: auto;
+    width: auto;
+    margin-top: 2rem;
+}
+.main-dish-shake_mainbox{
+    margin-top: 1rem;
+    filter: drop-shadow(20px 20px 20px rgba(10, 10, 10, 0.5));
+}
+.main-dish-shake_imgbox{
+    height: 65%;
+    width: 100%;
+}
+.main-dish-shake_about{
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #F8F7F5;
+}
+.main-dish-shake_topping p{          
+    text-align: center;       
+}
+.main-dish-shake_image-1{
+    background: url("https://shottbeverages.com/wp-content/uploads/2020/09/vanilla-milkshake.jpg") center;
+    background-size: cover;
+}
+.main-dish-shake_image-2{
+    background: url("https://mytastycurry.com/wp-content/uploads/2020/04/Cafe-style-cold-coffee-with-icecream-500x500.jpg") center;
+    background-size: cover;
+}
+.main-dish-shake_image-3{
+    background: url("https://shottbeverages.com/wp-content/uploads/2017/09/Iced-coffee-V2_preview-320x480-c-default.jpg") center;
+    background-size: cover;
+}
+.main-dish-shake_image-4{
+    background: url("https://tastesofhomemade.com/wp-content/uploads/2022/04/Butterscotch-Milkshake-10.jpg") center;
+    background-size: cover;
+}
+.main-dish-shake_image-5{
+    background: url("https://www.cookclickndevour.com/wp-content/uploads/2016/03/strawberry-milkshake-1.jpg") center;
+    background-size: cover;
+}
+.main-dish-shake_image-6{
+    background: url("https://recipefairy.com/wp-content/uploads/2019/12/chocolate-milkshake-with-icecream-scaled.jpg") center;
+    background-size: cover;
+}
+.main-dish-shake_image-7{
+    background: url("https://2.wlimg.com/product_images/bc-full/2023/2/11681855/black-currant-shake-1676359308-6761598.jpeg") center;
+    background-size: cover;
+}
+.main-dish-shake_image-8{
+    background: url("https://saltandbaker.com/wp-content/uploads/2020/12/oreo-milkshake-recipe.jpg") center;
+    background-size: cover;
+}
+
+
+
+/* main-dish-7-cold-drink */
+
+.main-dish-colddrink_container{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,23rem);
+    grid-template-rows: repeat(2,21rem);
+    gap: 15px;
+    height: auto;
+    width: auto;
+    margin-top: 2rem;
+}
+.main-dish-colddrink_image-1{
+    background: url("https://grosta.in/public/storage/app/public/images/products/large/178.jpg") center;
+    background-size: cover;
+}
+.main-dish-colddrink_image-2{
+    background: url("https://www.baskethunt.com/wp-content/uploads/2021/02/coca-cola-250-ml-1-20200731.jpg") center;
+    background-size: cover;
+}
+.main-dish-colddrink_image-3{
+    background: url("https://m.media-amazon.com/images/I/71W2sfXlRaL.jpg") center;
+    background-size: cover;
+}
+.main-dish-colddrink_image-4{
+    background: url("https://www.kroger.com/product/images/large/front/0004900000522") center;
+    background-size: cover;
+}
+.main-dish-colddrink_image-5{
+    background: url("https://5.imimg.com/data5/FV/GV/TG/SELLER-88265349/coca-cola-soft-drink-2l.jpg") center;
+    background-size: cover;
+}
+.main-dish-colddrink_image-6{
+    background: url("https://coolberg.in/cdn/shop/products/Products_1_-min_1.png?v=1627820297") center;
     background-size: cover;
 }
