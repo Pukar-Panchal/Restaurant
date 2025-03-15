@@ -130,3 +130,18 @@ function updateQuantity(event, change) {
         updateCartUI();
     }
 }
+
+let wNumber = 9817166339;
+let message = "hyy";
+let messageEncode = encodeURIComponent(message);
+
+
+function whatsApp () {
+    if(/Android|iPhone|iPad/i.test(navigator.userAgent))
+        window.location.href = "https://wa.me/" + wNumber + "?text=" + messageEncode;
+    else {
+        window.location.href = "https://web.whatsapp.com/send?phone=" + wNumber + "&text=" + messageEncode;
+    }
+}    
+
+

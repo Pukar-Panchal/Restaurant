@@ -60,16 +60,7 @@ body{
     cursor: pointer;
     margin-left: 1.5rem;
 }
-.nav-searchbar{
-    text-align: center;
-    width: 40%;
-    height: 2rem;
-    padding: 0.5rem;
-    font-size: 1rem;
-    border: none;
-    border-radius: 10px;
-    background: #F1F5F8;
-}
+
 /* Navigationbar <a> tags */
 .nav-bar-index ul li{
     display: inline-block;
@@ -451,16 +442,25 @@ ul h4{
     border-radius: 50%;
     border: none;    
 }
-.cart-close_btn{
-    width: 100%; 
+.cart-close_btn, .check-out_btn {  
     height: 3rem;
-    background-color: rgb(168, 47, 47);
     border: none;
     cursor: pointer;
-    position: absolute;
+    background-color: rgb(160, 47, 47);
     text-align: center;
-    position: relative;
+}
+.cart-close{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     bottom: 0%;
+    width: 100%;
+}
+.check-out_btn{
+    background: linear-gradient(90deg, #4c84e4 ,#a869eb);
+}
+.check-out_btn p{
+    margin-top: 5px;
 }
 .cart-list{
     margin-top: .5rem;
